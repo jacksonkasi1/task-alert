@@ -1,0 +1,23 @@
+{
+  "name": "task-notify",
+  "version": "1.0.0",
+  "description": "A package for notifying users when tasks or commands are completed",
+  "main": "index.js",
+  "bin": {
+    "task-notify": "./cli.js"
+  },
+  "keywords": [
+    "notification",
+    "command",
+    "task",
+    "terminal",
+    "cli"
+  ],
+  "author": "Jackson Kasi",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "node-notifier": "^8.0.0",
+    "play-sound": "^1.1.5"
+  }
+}
