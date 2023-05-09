@@ -1,10 +1,10 @@
 {
-  "name": "task-notify",
+  "name": "task-alert",
   "version": "1.0.0",
   "description": "A package for notifying users when tasks or commands are completed",
   "main": "index.js",
   "bin": {
-    "task-notify": "./cli.js"
+    "task-alert": "./cli.js"
   },
   "keywords": [
     "notification",

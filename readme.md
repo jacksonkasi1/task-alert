@@ -1,19 +1,19 @@
-# Task-Notify
+# task-alert
 
-Task-Notify is a simple command-line tool that executes a specified command and sends a notification when the command completes successfully. It uses the [node-notifier](https://github.com/mikaelbr/node-notifier) package to send desktop notifications.
+task-alert is a simple command-line tool that executes a specified command and sends a notification when the command completes successfully. It uses the [node-notifier](https://github.com/mikaelbr/node-notifier) package to send desktop notifications.
 
 ## Installation
 
-To use Task-Notify, you'll need to have [Node.js](https://nodejs.org/) installed on your system. You can install Task-Notify globally using `npm`:
+To use task-alert, you'll need to have [Node.js](https://nodejs.org/) installed on your system. You can install task-alert globally using `npm`:
 
 ```sh
-npm install -g task-notify
+npm install -g task-alert
 ```
 
 ## Usage
 
 ```sh
-task-notify -c <command> [-m <message>]
+task-alert -c <command> [-m <message>]
 ```
 
 
@@ -21,14 +21,14 @@ The `-c` option specifies the command to execute, and the `-m` option specifies 
 
 
 ```sh
-task-notify -c "echo 'Hello, world!'" -m "Test notification"
+task-alert -c "echo 'Hello, world!'" -m "Test notification"
 ```
 
 This command will execute the `echo 'Hello, world!'` command and display a notification with the message "Test notification" when it completes successfully.
 
 ## License
 
-Task-Notify is released under the [MIT License](LICENSE).
+task-alert is released under the [MIT License](LICENSE).
 
 ## Demo
 
