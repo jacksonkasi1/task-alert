@@ -1,6 +1,6 @@
 {
   "name": "task-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for notifying users when tasks or commands are completed",
   "main": "index.js",
   "bin": {
